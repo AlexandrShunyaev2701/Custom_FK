@@ -1,4 +1,5 @@
 **# Custom_FK это проект, который решает задачу создания кастомного ForeignKey, который обеспечивает интерфейс взаимодействия Product instance с UniqueProduct instances.**
+
 Необходимый интерфейс реализован в Custom_FK/custom_fk/models.py.
 *class CustomForeignKey*
 Это кастомный подкласс от класса ForeignKey. В нем переопределяется   "конструктор" родительского класса. 
